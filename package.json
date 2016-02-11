@@ -1,23 +1,40 @@
 {
-    "name": "unicode-tokenizer",
-    "description": "Unicode Tokenizer for line breaking.",
-    "author": "Bram Stein <b.l.stein@gmail.com> (http://www.bramstein.com)",
-    "version": "1.1.0",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/bramstein/unicode-tokenizer.git"
+  "name": "unibreak",
+  "description": "Unicode Tokenizer for line breaking.",
+  "contributors": [
+    {
+      "name": "Tao Yuan <towyuan@outlook.com>"
     },
-    "keywords": ["tokenizer", "tokens", "unicode", "line breaking", "tr14", "natural language processing", "nlp"],
-    "main": "./lib/index",
-    "directories": {
-        "lib": "./lib",
-        "bin": "./bin"
-    },
-    "dependencies": {
-        "optimist": "0.3.4",
-        "async": "0.1.22"
-    },
-    "devDependencies": {
-        "vows": "=0.5.11"
+    {
+      "name": "Bram Stein <b.l.stein@gmail.com>",
+      "web": "http://www.bramstein.com"
     }
+  ],
+  "version": "1.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/taoyuan/unibreak.git"
+  },
+  "keywords": [
+    "tokenizer",
+    "tokens",
+    "unicode",
+    "line breaking",
+    "tr14",
+    "natural language processing",
+    "nlp"
+  ],
+  "main": "./lib/index",
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin"
+  },
+  "dependencies": {
+    "yargs": "3.32.0",
+    "async": "1.5.2"
+  },
+  "devDependencies": {
+    "vows": "=0.8.1"
+  },
+  "license": "BSD"
 }
