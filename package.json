@@ -1,5 +1,6 @@
 {
   "name": "unibreak",
+  "version": "1.1.0",
   "description": "Unicode Tokenizer for line breaking.",
   "contributors": [
     {
@@ -10,7 +11,6 @@
       "web": "http://www.bramstein.com"
     }
   ],
-  "version": "1.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/taoyuan/unibreak.git"
